@@ -1,0 +1,58 @@
+{
+  "name": "electron-boilerplate",
+  "productName": "ElectronBoilerplate",
+  "version": "0.0.0",
+  "description": "My riveting app",
+  "license": "MIT",
+  "repository": "theperducogroup/electron-boilerplate",
+  "author": {
+    "name": "James Abels",
+    "email": "jamesrabels@gmail.com",
+    "url": "theperducogroup.com"
+  },
+  "electronVersion": "0.36.0",
+  "scripts": {
+    "test": "xo",
+    "start": "electron ./public",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion",
+    "watch": "brunch watch --server",
+    "production": "brunch build --production"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.5.0",
+    "postcss-brunch": "^0.5.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "autoprefixer": "^6.3.3",
+    "babel-brunch": "^6.0.0",
+    "breakpoint-sass": "^2.7.0",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.36.0",
+    "javascript-brunch": "^2.0.0",
+    "modularscale-sass": "^2.1.1",
+    "postcss-brunch": "^0.5.0",
+    "sass-brunch": "^2.0.0",
+    "susy": "^2.2.12",
+    "uglify-js-brunch": "^2.0.0",
+    "xo": "^0.12.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
