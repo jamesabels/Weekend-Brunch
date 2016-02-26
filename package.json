@@ -14,9 +14,7 @@
   "scripts": {
     "test": "xo",
     "start": "electron ./public",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion",
-    "watch": "brunch watch --server",
-    "production": "brunch build --production"
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
   },
   "files": [
     "index.js",
@@ -34,9 +32,9 @@
     "auto-reload-brunch": "^2.0.0",
     "autoprefixer": "^6.3.3",
     "babel-brunch": "^6.0.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.5.2",
     "babel-preset-es2015": "^6.5.0",
     "breakpoint-sass": "^2.7.0",
+    "brunch": "^2.4.2",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
     "electron-packager": "^5.0.0",

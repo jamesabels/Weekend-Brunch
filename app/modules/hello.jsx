@@ -8,6 +8,11 @@ class HelloWorld {
     log() {
         console.info(this.text);
     }
+
+    render() {
+        this.log();
+        document.querySelector('.container').appendChild(document.createTextNode("Electron Boilerplate"));
+    }
 }
 
 module.exports = HelloWorld;

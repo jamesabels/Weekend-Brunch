@@ -3,8 +3,8 @@ exports.config =
   files:
     javascripts:
       joinTo: {
-        'js/app.js': /app[\\/]js[\\/]/,
-        'js/vendor.js': /app[\\/]vendnor[\\/]/,
+        'js/app.js': /app[\\/]vendor[\\/]/,
+        'js/vendor.js': /app[\\/]vendor[\\/]libs[\\/]/,
         'js/modules.js': /app[\\/]modules[\\/]/,
       },
     stylesheets:
@@ -28,4 +28,5 @@ exports.config =
 #  MODULE SETTINGS
   modules: {
     wrapper: "commonjs"
+#    definition: false
   }
