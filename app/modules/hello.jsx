@@ -2,7 +2,7 @@
 class HelloWorld {
 
     constructor() {
-        this.text = "Welcome to Weekend  Brunch";
+        this.text = "Welcome to Weekend Brunch";
     }
 
     log() {
