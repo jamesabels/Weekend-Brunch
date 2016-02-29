@@ -1,7 +1,7 @@
-Electron Boilerplate 
+Weekend Brunch 
 =====================
 
-Powered by  [Electron](<http://electron.atom.io/>)[,
+Weekend Brunch is a Brunch Skeleton powered by [Electron](<http://electron.atom.io/>)[,
 Brunch](<http://brunch.io>) and [Sass](<http://sass-lang.com/>) and [Babel
 ](<https://babeljs.io/>)
 

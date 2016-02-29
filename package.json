@@ -1,14 +1,14 @@
 {
-  "name": "electron-boilerplate",
-  "productName": "ElectronBoilerplate",
+  "name": "Weekend-Brunch",
+  "productName": "Weekend Brunch",
   "version": "0.0.0",
-  "description": "My riveting app",
+  "description": "Weekend Brunch is a Brunch Skeleton powered by Electron, Brunch and Sass and Babel",
   "license": "MIT",
-  "repository": "theperducogroup/electron-boilerplate",
+  "repository": "https://github.com/jamesabels/Weekend-Brunch",
   "author": {
     "name": "James Abels",
     "email": "jamesrabels@gmail.com",
-    "url": "theperducogroup.com"
+    "url": "jamesabels.net"
   },
   "electronVersion": "0.36.0",
   "scripts": {
