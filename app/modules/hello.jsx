@@ -2,7 +2,7 @@
 class HelloWorld {
 
     constructor() {
-        this.text = "Welcome to Electron Boilerplate";
+        this.text = "Welcome to Weekend  Brunch";
     }
 
     log() {
@@ -11,7 +11,7 @@ class HelloWorld {
 
     render() {
         this.log();
-        document.querySelector('.container').appendChild(document.createTextNode("Electron Boilerplate"));
+        document.querySelector('.app').appendChild(document.createTextNode("Weekend Brunch"));
     }
 }
 
