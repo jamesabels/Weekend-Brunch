@@ -1,9 +1,14 @@
 Weekend Brunch 
 =====================
 
-Weekend Brunch is a Brunch Skeleton powered by [Electron](<http://electron.atom.io/>)[,
-Brunch](<http://brunch.io>) and [Sass](<http://sass-lang.com/>) and [Babel
-](<https://babeljs.io/>)
+Weekend Brunch is a Brunch Skeleton powered by 
+
+[Electron](<http://electron.atom.io/>) 
+[Brunch](<http://brunch.io>) 
+[Sass](<http://sass-lang.com/>)
+[Bourbon](<http://bourbon.io/>)
+[Neat](<http://neat.bourbon.io/>)
+[Babel](<https://babeljs.io/>)
 
  
 
@@ -49,6 +54,6 @@ Getting started
     -   Use `require(”modules/file_name”);` to access a module in another
         Javascript file
 
-    -   Place non-modular in `app/vendor` so that it doesn't get wrapped into a module
+    -   Place non-modular code in `app/vendor` so that it doesn't get wrapped into a module
     
-    -   Place Third Party Code in `app/vendor/libs` so that it doesn't get wrapped into a module
+    -   Place Third Party code in `app/vendor/libs` so that it doesn't get wrapped into a module
