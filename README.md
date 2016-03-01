@@ -3,12 +3,12 @@ Weekend Brunch
 
 Weekend Brunch is a Brunch Skeleton powered by 
 
-[Electron](<http://electron.atom.io/>) 
-[Brunch](<http://brunch.io>) 
-[Sass](<http://sass-lang.com/>)
-[Bourbon](<http://bourbon.io/>)
-[Neat](<http://neat.bourbon.io/>)
-[Babel](<https://babeljs.io/>)
+- [Electron](<http://electron.atom.io/>) 
+- [Brunch](<http://brunch.io>) 
+- [Sass](<http://sass-lang.com/>)
+- [Bourbon](<http://bourbon.io/>)
+- [Neat](<http://neat.bourbon.io/>)
+- [Babel](<https://babeljs.io/>)
 
  
 
