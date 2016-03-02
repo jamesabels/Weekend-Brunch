@@ -1,7 +1,10 @@
-// HELLO WORLD CLASS
-class HelloWorld {
+var React = require('react');
 
-    constructor() {
+// HELLO WORLD CLASS
+class HelloWorld extends React.Component {
+
+    constructor(props) {
+        super(props)
         this.text = "Welcome to Weekend Brunch";
     }
 
@@ -10,8 +13,9 @@ class HelloWorld {
     }
 
     render() {
-        this.log();
-        document.querySelector('.app').appendChild(document.createTextNode("Weekend Brunch"));
+        return (
+            <h1>this.text</h1>
+        )
     }
 }
 
