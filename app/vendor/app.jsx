@@ -1,5 +1,4 @@
-// IMPORTS 
-const React = require('react');
+// IMPORTS
 const HelloWorld = require("modules/hello");
 
 const renderTarget = document.querySelector('.app'); 

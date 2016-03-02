@@ -1,20 +1,13 @@
-var React = require('react');
-
 // HELLO WORLD CLASS
 class HelloWorld extends React.Component {
 
     constructor(props) {
-        super(props)
-        this.text = "Welcome to Weekend Brunch";
-    }
-
-    log() {
-        console.info(this.text);
+        super(props);
     }
 
     render() {
         return (
-            <h1>this.text</h1>
+            <h1>Weekend Brunch</h1>
         )
     }
 }
