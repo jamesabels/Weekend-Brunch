@@ -20,6 +20,7 @@ exports.config =
     babel:
       babelrc: true
       pattern: /\.(es6|jsx)$/
+      ignore: [ /^(bower_components|vendor)/, 'app/legacyES5Code/**/*' ]
 #    Further process your CSS
     postcss:
       processors: [

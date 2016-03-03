@@ -1,11 +1,11 @@
 //IMPORT SASS MIXIN LIBRARIES AND SETTINGS 
-@import "../mixins/settings.scss"; 
+@import "../mixins/settings.scss";
 
 html,
 body {
   overflow: hidden;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   padding: 0;
   margin: 0;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 .app {
-  @include outer-container(100%);
+  width: 100%;
   height: 100%;
   margin: 0 auto;
   text-align: center;

@@ -1,3 +1,9 @@
 // IMPORT PORJECT FILES 
 @import "partials/partials.scss";
 @import "modules/hello.scss";
+
+h1 {
+  font-family: Helvetica Neue, Helvetica, Arial;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+}

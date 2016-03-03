@@ -1,17 +1,17 @@
 // HELLO WORLD CLASS
-class HelloWorld {
+class HelloWorld extends React.Component {
 
-    constructor() {
-        this.text = "Welcome to Weekend Brunch";
-    }
-
-    log() {
-        console.info(this.text);
+    constructor(props) {
+        super(props);
     }
 
     render() {
-        this.log();
-        document.querySelector('.app').appendChild(document.createTextNode("Weekend Brunch"));
+        
+        console.log("Welcome to Weekend Brunch!"); 
+        
+        return (
+            <h1>Weekend Brunch</h1>
+        )
     }
 }
 
