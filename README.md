@@ -4,7 +4,8 @@ Weekend Brunch
 Weekend Brunch is a Brunch Skeleton powered by 
 
 - [Electron](<http://electron.atom.io/>) 
-- [Brunch](<http://brunch.io>) 
+- [Brunch](<http://brunch.io>)
+- [React] (<https://facebook.github.io/react/>)
 - [Sass](<http://sass-lang.com/>)
 - [Bourbon](<http://bourbon.io/>)
 - [Neat](<http://neat.bourbon.io/>)
