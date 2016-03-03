@@ -6,6 +6,9 @@ class HelloWorld extends React.Component {
     }
 
     render() {
+        
+        console.log("Welcome to Weekend Brunch!"); 
+        
         return (
             <h1>Weekend Brunch</h1>
         )
