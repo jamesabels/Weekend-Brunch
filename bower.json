@@ -1,0 +1,27 @@
+{
+  "name": "Weekend-Brunch",
+  "description": "Weekend Brunch is a Brunch Skeleton powered by Electron, Brunch and Sass and Babel",
+  "main": "",
+  "authors": [
+    "James Abels"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "moduleType": [],
+  "homepage": "jamesabels.net",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "^4.2.6",
+    "neat": "^1.7.3"
+  }
+}
