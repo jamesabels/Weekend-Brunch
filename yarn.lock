@@ -1819,11 +1819,12 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-electron-debug@^0.5.0:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/electron-debug/-/electron-debug-0.5.2.tgz#18ceb299ca4ba645c2661dc5e063a185cb53be8e"
+electron-debug@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/electron-debug/-/electron-debug-1.4.0.tgz#bec7005522220a9d0622153352e1bbff0f37af2e"
   dependencies:
-    electron-localshortcut "^0.6.0"
+    electron-is-dev "^0.3.0"
+    electron-localshortcut "^3.0.0"
 
 electron-download@^1.0.0:
   version "1.4.1"
@@ -1851,9 +1852,22 @@ electron-download@^2.0.0:
     path-exists "^1.0.0"
     rc "^1.1.2"
 
-electron-localshortcut@^0.6.0:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/electron-localshortcut/-/electron-localshortcut-0.6.1.tgz#c4e268c38a6e42f40de5618fc906d1ed608f11aa"
+electron-is-accelerator@^0.1.0:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/electron-is-accelerator/-/electron-is-accelerator-0.1.2.tgz#509e510c26a56b55e17f863a4b04e111846ab27b"
+
+electron-is-dev@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/electron-is-dev/-/electron-is-dev-0.3.0.tgz#14e6fda5c68e9e4ecbeff9ccf037cbd7c05c5afe"
+
+electron-localshortcut@^3.0.0:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/electron-localshortcut/-/electron-localshortcut-3.0.2.tgz#df9cebe64140f4e58b680aacb2bd6278ae38ee61"
+  dependencies:
+    debug "^2.6.8"
+    electron-is-accelerator "^0.1.0"
+    keyboardevent-from-electron-accelerator "^0.7.0"
+    keyboardevents-areequal "^0.2.1"
 
 electron-packager@^5.0.0:
   version "5.2.1"
@@ -3222,6 +3236,14 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
+
+keyboardevent-from-electron-accelerator@^0.7.0:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/keyboardevent-from-electron-accelerator/-/keyboardevent-from-electron-accelerator-0.7.1.tgz#aedafa5cc9a3a5f3f2b7c88b2ffd4057568118e7"
+
+keyboardevents-areequal@^0.2.1:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/keyboardevents-areequal/-/keyboardevents-areequal-0.2.2.tgz#88191ec738ce9f7591c25e9056de928b40277194"
 
 kind-of@^3.0.2:
   version "3.2.2"
