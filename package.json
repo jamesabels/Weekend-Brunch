@@ -36,7 +36,7 @@
     "electron-packager": "^10.1.0",
     "electron-prebuilt": "^1.4.13",
     "javascript-brunch": "^2.0.0",
-    "postcss-brunch": "^0.5.0",
+    "postcss-brunch": "^2.1.0",
     "require": "^2.4.20",
     "sass-brunch": "^2.0.0",
     "uglify-js-brunch": "^2.0.0",
