@@ -1,15 +1,11 @@
 {
   "name": "Weekend-Brunch",
   "productName": "Weekend Brunch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Weekend Brunch is a Brunch Skeleton powered by Electron, Brunch and Sass and Babel",
   "license": "MIT",
   "repository": "https://github.com/jamesabels/Weekend-Brunch",
-  "author": {
-    "name": "James Abels",
-    "email": "jamesrabels@gmail.com",
-    "url": "jamesabels.net"
-  },
+  "author": "James Abels <jamesrabels@gmail.com> (jamesabels.net)",
   "electronVersion": "0.36.0",
   "scripts": {
     "test": "xo",
@@ -26,8 +22,8 @@
     "electron"
   ],
   "dependencies": {
-    "babel-preset-react": "^6.5.0",
     "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
     "electron-debug": "^0.5.0"
   },
   "devDependencies": {
@@ -52,5 +48,6 @@
       "node",
       "browser"
     ]
-  }
+  },
+  "main": "index.js"
 }
