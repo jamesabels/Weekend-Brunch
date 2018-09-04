@@ -30,7 +30,7 @@
     "auto-reload-brunch": "^2.0.0",
     "autoprefixer": "^6.3.3",
     "babel-brunch": "^6.0.0",
-    "brunch": "^2.4.2",
+    "brunch": "^2.10.17",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
     "electron-packager": "^5.0.0",
