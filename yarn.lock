@@ -18,8 +18,8 @@ acorn-to-esprima@^1.0.5:
   resolved "https://registry.yarnpkg.com/acorn-to-esprima/-/acorn-to-esprima-1.0.7.tgz#9436259760098f9ead9b9da2242fab2f4850281b"
 
 acorn@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.2.1.tgz#317ac7821826c22c702d66189ab8359675f135d7"
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
 
 ajv@^4.9.1:
   version "4.11.8"
@@ -946,7 +946,7 @@ babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26.0:
 
 babylon@^5.8.38:
   version "5.8.38"
-  resolved "http://registry.npmjs.org/babylon/-/babylon-5.8.38.tgz#ec9b120b11bf6ccd4173a18bf217e60b79859ffd"
+  resolved "https://registry.npmjs.org/babylon/-/babylon-5.8.38.tgz#ec9b120b11bf6ccd4173a18bf217e60b79859ffd"
 
 babylon@^6.18.0:
   version "6.18.0"
@@ -2370,7 +2370,7 @@ fs-exists-sync@^0.1.0:
 
 fs-extra@0.18.2:
   version "0.18.2"
-  resolved "http://registry.npmjs.org/fs-extra/-/fs-extra-0.18.2.tgz#af05ca702b0b6dfa7de803a1f7ab479ec5c21525"
+  resolved "https://registry.npmjs.org/fs-extra/-/fs-extra-0.18.2.tgz#af05ca702b0b6dfa7de803a1f7ab479ec5c21525"
   dependencies:
     graceful-fs "^3.0.5"
     jsonfile "^2.0.0"
