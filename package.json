@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",
-    "autoprefixer": "^6.3.3",
+    "autoprefixer": "^9.8.2",
     "babel-brunch": "^6.0.0",
     "brunch": "^2.4.2",
     "clean-css-brunch": "^2.0.0",
